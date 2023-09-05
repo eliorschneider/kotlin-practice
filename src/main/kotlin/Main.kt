@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
 
     println("${sumLambda(5,11 )}")
     ItemWithCategory("hey", "wow", "another")
-    println("p iwc: ${ItemWithCategory("hey", "wow", "another")}")
+    println("p iwc: ${ItemWithCategory("hey", "wow", "another").getIdOfItem()}")
     println("email string contents is ${email}")
     println("Program arguments: ${args.joinToString()}")
 }
