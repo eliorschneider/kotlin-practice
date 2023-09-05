@@ -19,4 +19,6 @@ fun main(args: Array<String>) {
     println("p iwc: ${ItemWithCategory("hey", "wow", "another").getIdOfItem()}")
     println("email string contents is ${email}")
     println("Program arguments: ${args.joinToString()}")
+    ItemWithConditionalStatements("ID!", "NAME!", "CATID!").makeAnalysisOfCategory("100")
+    ItemWithConditionalStatements("ID!", "NAME!", "CATID!").makeAnalysisOfCategory("90")
 }
