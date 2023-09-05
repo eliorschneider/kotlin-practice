@@ -7,7 +7,7 @@ fun sum (a: Int, b: Int): Int {
 
 
 fun main(args: Array<String>) {
-    println("Hello World! ${sum(5, 6)}")
+    println("Hello World! ${sum(5, 7)}")
 
     var email: String? = null
     email = "value"
